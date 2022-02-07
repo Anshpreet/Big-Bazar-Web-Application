@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBazarApi", "BigBazarApi\BigBazarApi.csproj", "{792E6237-BBE3-4134-BE53-5A69D6923CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBazarEntities", "BigBazarEntities\BigBazarEntities.csproj", "{D37B34D2-D4C0-49C6-B4F1-716167EC4B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBazarServices", "BigBazarServices\BigBazarServices.csproj", "{79339CBF-1DE9-4394-8B6B-450421B06394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBazarUnitTest", "BigBazarUnitTest\BigBazarUnitTest.csproj", "{91CBE4AB-99B8-44B6-9E83-3CE4F5D39790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomException", "CustomException\CustomException.csproj", "{C6AD9391-87EB-423C-A160-3DE15D332425}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigBazarRespository", "BigBazarRespository\BigBazarRespository.csproj", "{4B81A038-1AA4-48BD-96D8-DD3B1E21FD50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBazarWebApplication", "BigBazarWebApplication\BigBazarWebApplication.csproj", "{AC4F731D-FEF6-4714-9A41-B869E3A07281}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{792E6237-BBE3-4134-BE53-5A69D6923CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792E6237-BBE3-4134-BE53-5A69D6923CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792E6237-BBE3-4134-BE53-5A69D6923CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792E6237-BBE3-4134-BE53-5A69D6923CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D37B34D2-D4C0-49C6-B4F1-716167EC4B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37B34D2-D4C0-49C6-B4F1-716167EC4B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37B34D2-D4C0-49C6-B4F1-716167EC4B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37B34D2-D4C0-49C6-B4F1-716167EC4B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79339CBF-1DE9-4394-8B6B-450421B06394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79339CBF-1DE9-4394-8B6B-450421B06394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79339CBF-1DE9-4394-8B6B-450421B06394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79339CBF-1DE9-4394-8B6B-450421B06394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CBE4AB-99B8-44B6-9E83-3CE4F5D39790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CBE4AB-99B8-44B6-9E83-3CE4F5D39790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CBE4AB-99B8-44B6-9E83-3CE4F5D39790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CBE4AB-99B8-44B6-9E83-3CE4F5D39790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6AD9391-87EB-423C-A160-3DE15D332425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6AD9391-87EB-423C-A160-3DE15D332425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6AD9391-87EB-423C-A160-3DE15D332425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6AD9391-87EB-423C-A160-3DE15D332425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B81A038-1AA4-48BD-96D8-DD3B1E21FD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B81A038-1AA4-48BD-96D8-DD3B1E21FD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B81A038-1AA4-48BD-96D8-DD3B1E21FD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B81A038-1AA4-48BD-96D8-DD3B1E21FD50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4F731D-FEF6-4714-9A41-B869E3A07281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4F731D-FEF6-4714-9A41-B869E3A07281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4F731D-FEF6-4714-9A41-B869E3A07281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4F731D-FEF6-4714-9A41-B869E3A07281}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {408DF4AE-3BBA-40F5-858C-EAF335C6F532}
+	EndGlobalSection
+EndGlobal

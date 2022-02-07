@@ -1,0 +1,12 @@
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\bin\Debug\netcoreapp3.1\BigBazarEntities.deps.json
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\bin\Debug\netcoreapp3.1\BigBazarEntities.runtimeconfig.json
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\bin\Debug\netcoreapp3.1\BigBazarEntities.runtimeconfig.dev.json
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\bin\Debug\netcoreapp3.1\BigBazarEntities.dll
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\bin\Debug\netcoreapp3.1\BigBazarEntities.pdb
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\obj\Debug\netcoreapp3.1\BigBazarEntities.csprojAssemblyReference.cache
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\obj\Debug\netcoreapp3.1\BigBazarEntities.AssemblyInfoInputs.cache
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\obj\Debug\netcoreapp3.1\BigBazarEntities.AssemblyInfo.cs
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\obj\Debug\netcoreapp3.1\BigBazarEntities.csproj.CoreCompileInputs.cache
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\obj\Debug\netcoreapp3.1\BigBazarEntities.dll
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\obj\Debug\netcoreapp3.1\BigBazarEntities.pdb
+C:\Users\Anshpreet kaur\source\repos\BigBazarApi\BigBazarEntities\obj\Debug\netcoreapp3.1\BigBazarEntities.genruntimeconfig.cache

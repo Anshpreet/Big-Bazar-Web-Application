@@ -1,0 +1,174 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />*@
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            background: #353535;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 800;
+            background-image: url("https://thumbs.dreamstime.com/b/shopping-basket-fruits-wood-table-over-grocery-store-sup-supermarket-blur-background-132404195.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            background-size: initial;
+           
+            
+        }
+
+            .navbar a {
+                
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            position: relative;
+            display: inline-block;
+            
+        }
+
+                .dropdown .dropbtn {
+                    cursor: pointer;
+                    font-size: 16px;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    padding: 14px 16px;
+                    background-color: inherit;
+                    font-family: inherit;
+                    margin: 0;
+                    position: relative;
+                    display: inline-block;
+                }
+
+                .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+                    background-color: lightblue;
+                }
+
+            .dropdown-content {
+                display: none;
+                position: relative;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+                .dropdown-content a {
+                    float: initial;
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: grid;
+                    text-align: center;
+                }
+
+                    .dropdown-content a:hover {
+                        background-color: #ddd;
+                    }
+
+            .show {
+                display: contents;
+            }
+        </style>
+</head>
+
+
+<body>
+    <header>
+
+        <div style="background-color:white">
+
+            <img src="https://4.bp.blogspot.com/-FxPmnZ9iVvU/TuX8FD4I50I/AAAAAAAADsA/RVB9l4Egr0A/s1600/big%2Bbazaar%2Blogo.jpg"
+                 alt="HTML5 Icon" style="width:15%;height:80px; margin-left:20px;" class="img">
+        </div>
+
+
+
+
+
+        <div class="navbar">
+            <a href="~/Home/Index" style="margin-left:20px">Home</a>
+
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">
+                    Login
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="~/AdminMvc/LoginAdmin">Admin Login</a>
+                    <a href="~/UserMvc/LoginUser">User Login</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <div class="container body-content">
+        @RenderBody()
+        @*<hr />*@
+        @*<footer>
+                <p>&copy; @DateTime.Now.Year - WELCOME TO BIG BAZAR</p>
+            </footer>*@
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+
+
+    <script>
+
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+
+        window.onclick = function (e) {
+            if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+        @*$(document).end(function () {
+            alert(@ViewBag.ErrorMessage);
+        });*@
+
+    </script>
+</body>
+</html>
